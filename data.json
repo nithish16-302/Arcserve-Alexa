@@ -1,0 +1,53 @@
+{
+    "notifications" : [
+        {
+            "jobid" : "1",
+            "jobName" : "Weekly Backup",
+            "notification": "Backup Job started"
+        },
+        {
+            "jobid" : "2",
+            "jobName" : "Daily Backup",
+            "notification": "Backup Job Finished"
+        },
+        {
+            "jobid" : "3",
+            "jobName" : "Backup",
+            "notification": "Backup Agent server is not running"
+        }
+    ],
+    "status" : [
+        {
+            "jobid" : "1",
+            "jobName" : "Weekly Backup",
+            "status": "Running"
+        },
+        {
+            "jobid" : "2",
+            "jobName" : "Daily Backup",
+            "status": "Successful"
+        },
+        {
+            "jobid" : "3",
+            "jobName" : "Backup",
+            "status": "Failed"
+        }
+    ],
+    "failures" : [
+        {
+            "jobid" : "1",
+            "jobName" : "Weekly Backup",
+            "failNotification": "Integrity Check Failed"
+        },
+        {
+            "jobid" : "2",
+            "jobName" : "Daily Backup",
+            "failNotification": "PFC Failed"
+        },
+        {
+            "jobid" : "3",
+            "jobName" : "Backup",
+            "failNotification": "Failed to recieve data from agent"
+        }
+    ]
+}
