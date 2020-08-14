@@ -1,7 +1,7 @@
 //var mysql = require('mysql');
 var express = require('express');
 var app = express();
-var port = process.env.port;
+var port = process.env.PORT || 3000;
 const importData = require("./data.json");
 
 // var con = mysql.createConnection({
@@ -37,6 +37,5 @@ const importData = require("./data.json");
   //});
 //});
 var server = app.listen(port, function () {
-    var host = 'still-bayou-69698.herokuapp.com'
-    console.log("Example app listening at http://%s:%s", host);
+    console.log("Example app listening " + port);
 });
