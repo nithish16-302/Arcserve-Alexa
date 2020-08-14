@@ -36,7 +36,7 @@ const importData = require("./data.json");
   //});
 //});
 var server = app.listen(3000, function () {
-    var host = 'localhost'
+    var host = 'still-bayou-69698.herokuapp.com'
     var port = '3000'
     console.log("Example app listening at http://%s:%s", host, port)
 });
